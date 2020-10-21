@@ -24,10 +24,12 @@ By default, runs tests related to files changed since the last commit.
 
 Deploy to Github Pages pushing the `dist` directory to remote `gh-pages` branch 
 
-### `docker build -t vulpemventures/liquid-coach:latest .`
+### Using Docker
+
+## `docker build -t vulpemventures/liquid-coach:latest .`
 
 Builds a Docker Container with the application
 
-### `docker run --rm -p 7000:7000 --name coach vulpemventures/liquid-coach:latest`
+## `docker run --rm -p 7000:7000 --name coach vulpemventures/liquid-coach:latest`
 
 Runs the Docker Container, serving liquid.coach at http://localhost:7000
